@@ -1,9 +1,8 @@
 # The capstone (INFO 698)
-This repertory contains files of `SMART HOME Project`.
+This repertory contains files of `Capstone Project`.
 
 ## ABOUT
-
-existing R code and create your own R analysis to analyze:
+ Create  R analysis to analyze:
 
   1.  fetal force condition from 2015-end of 2019
   2.  fetal force condition from 2020-2023
