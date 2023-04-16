@@ -2,7 +2,7 @@
 This repertory contains files of `Capstone Project`.
 
 ## Capstone Proposal
-we'll use data mining concepts and techniques to extract some specific data from the two datasets. The datasets will be divided into two time periods: before and after COVID-19. We will use R programming to assist in implementing various algorithms or models such as regression, clustering, etc. The data will then be presented using various visualization techniques. 
+We'll use data mining concepts and techniques to extract some specific data from the two datasets. The datasets will be divided into two time periods: before and after COVID-19. We will use R programming to assist in implementing various algorithms or models such as regression, clustering, etc. The data will then be presented using various visualization techniques. 
 
 ## Capston Description 
  Create  R analysis to analyze:
