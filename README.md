@@ -1,4 +1,4 @@
-# The capstone (INFO 698)
+# The Capstone (INFO 698)
 This repertory contains files of `Capstone Project`.
 
 ## ABOUT
