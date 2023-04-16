@@ -1,4 +1,4 @@
-##The capstone (INFO 698)
+###The capstone (INFO 698)
 existing R code and create your own R analysis to analyze:
 
   1.  fetal force condition from 2015-end of 2019
