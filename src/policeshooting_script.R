@@ -1,6 +1,8 @@
-##
-##
-##
+#Author Nasser Albalawi
+#Data of Create:
+#
+#The capstone (INFO 698)
+#
 setwd("~/Desktop/R_programming")
 ##============================Getting the data======================================
 #Download the file
