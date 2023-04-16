@@ -1,7 +1,8 @@
-#Author Nasser Albalawi
-#Data of Create:
-#
-#The capstone (INFO 698)
+# Author Nasser Albalawi										   
+# Date Created: 04/15/2023	
+# The capstone (INFO 698)
+# Descrption: This script will. 
+# Date: 04/15/2023
 #
 setwd("~/Desktop/R_programming")
 ##============================Getting the data======================================
