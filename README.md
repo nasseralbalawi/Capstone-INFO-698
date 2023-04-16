@@ -11,7 +11,10 @@ This repertory contains files of `Capstone Project`.
   3.  any differences and similarities between the two.
 
 ## Data Source 
-
+- Download the file
+  1. (https://github.com/washingtonpost/data-police-shootings)
+  2. ("https://raw.githubusercontent.com/washingtonpost/data-police-shootings/567ceb1fd1769bb27fc8740de808400a73fbdf56/v1/fatal-police-shootings-data.csv", "v1_fatal-police-shootings-data.csv")
+  3. ("https://raw.githubusercontent.com/washingtonpost/data-police-shootings/master/v2/fatal-police-shootings-data.csv", "v2_fatal-police-shootings-data.csv")
 
 ## Software Development Tools
  - Programming Language
