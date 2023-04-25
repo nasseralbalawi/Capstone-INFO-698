@@ -1,8 +1,7 @@
-
+#
 
 #Download and Import the dataset
  
-#Download the file (already downloaded previously, no need to rerun)
 #download.file("https://raw.githubusercontent.com/washingtonpost/data-police-shootings/master/v2/fatal-police-shootings-data.csv",
               #"v2_fatal-police-shootings-data.csv")
 
@@ -39,7 +38,7 @@ age_label_df <- tibble(age_group=age_groups, label= age_groups_2)
 
 
 #=================================Test of Association==========================================
-#Here, I will be using the chi-squared Test to test the association between the following
+#Here, I will be using the chi-squared test to test the association between the following
 #1. Gender & Mental illness
 #2. Gender & Mental illness among Native Americans
 #3. Age & Gender
