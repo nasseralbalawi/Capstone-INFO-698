@@ -37,7 +37,6 @@ age_label_df <- tibble(age_group=age_groups, label= age_groups_2)
 
 #The age classification will be needed later for association analysis
 
-
 #=================================Test of Association==========================================
 #Here, I will be using the chi-squared test to test the association between the following
 #1. Gender & Mental illness
@@ -45,7 +44,7 @@ age_label_df <- tibble(age_group=age_groups, label= age_groups_2)
 #3. Age & Gender
 
 #1. Gender & Mental illness
-#SUbset for needed variables and remove non-typical entry
+#Subset for needed variables and remove non-typical entry
 shootings_select_1 <- shootings_v2%>%
    filter(gender=="male" | gender=="female")
 
