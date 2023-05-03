@@ -1,5 +1,6 @@
-#
-
+# Author : Nasser Albalawi 
+# Date: 
+# Description: 
 #Download and Import the dataset
  
 #download.file("https://raw.githubusercontent.com/washingtonpost/data-police-shootings/master/v2/fatal-police-shootings-data.csv",
