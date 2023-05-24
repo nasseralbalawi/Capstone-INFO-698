@@ -1,18 +1,14 @@
 
-#Download and Import the dataset
 
-#Download the file (already downloaded previously, no need to rerun)
-#download.file("https://raw.githubusercontent.com/washingtonpost/data-police-shootings/master/v2/fatal-police-shootings-data.csv",
-#"v2_fatal-police-shootings-data.csv")
 
-#Import the dataset
+#==================Import the dataset===========================
 shootings_v2 <- read.csv("v2_fatal-police-shootings-data.csv")
 
 #Inspect the dimension and column names
 dim(shootings_v2)
 names(shootings_v2)
 
-#==================================Data preprocessing=========================================
+#==================================Data preprocessing=========================================#
 library(dplyr)
 library(rpart)
 library(caret)
@@ -107,7 +103,7 @@ conf_mat <- table(test$race, Predict_shoot_test)
 sum(diag(conf_mat))/sum(conf_mat)
 
 #============================Classification Part 2===========================================
-#Our first classification task was biased towards whites (W)
+#first classification task was biased towards whites (W)
 #Hence we reprocess the data by excluding some rows with the "W" race
 
 # Obtain the row index for the "W" race
@@ -125,7 +121,7 @@ shoot_index%>%
    summarise(n=n())
 
 
-# #To predict the Race of victims.
+# To predict the Race of victims.
 #Create training and test data
 train_set_2 <- createDataPartition(shoot_index$race, p=0.7, list=FALSE)
 train_2 <- shoot_index[train_set_2,]
