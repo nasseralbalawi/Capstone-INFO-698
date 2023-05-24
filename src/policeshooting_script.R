@@ -167,9 +167,9 @@ for(age in shootings_v2$age){
 }
 sum(nn) #549 NAs, is quite large
 
-#===================================Not recommended=======================================
+#===================================Note=======================================
 #This segment of code substitutes NA values in age with overall mean age
-#You may skip this segment of code and not susbtitute NA age values with mean.
+#skip this segment of code and not susbtitute NA age values with mean.
 #This will prevent a unimodal form of distribution in the histogram
 
 
